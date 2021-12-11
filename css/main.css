@@ -90,17 +90,17 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo--header {
+.logo--position {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.logo--styles {
+.logo--black {
   color: #212121;
 }
 
-.logo--footer {
+.logo--white {
   color: #ffffff;
 }
 
@@ -496,7 +496,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* --SVG-наша-команда-фото */
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -853,7 +852,7 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__input:focus + .modal-icon {
+.modal__input:focus + .modal__icon {
   fill: #2196f3;
 }
 
@@ -863,7 +862,7 @@ body {
   border-radius: 4px;
 }
 
-.modal-icon {
+.modal__icon {
   display: block;
   position: absolute;
   top: 50%;
