@@ -168,7 +168,7 @@ body {
   display: flex;
 }
 
-.contacts .item:not(:last-child) {
+.contacts .contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -386,7 +386,7 @@ body {
   background-color: #f5f4fa;
 }
 
-.antenna, .clock, .diagram, .astronaut {
+.features__antenna, .features__clock, .features__diagram, .features__astronaut {
   display: block;
   width: 70px;
   height: 70px;
@@ -585,7 +585,7 @@ body {
   border: 1px solid #2196f3;
 }
 
-.clients {
+.gerular-clients__clients {
   width: 106px;
   height: 60px;
   fill: currentColor;
