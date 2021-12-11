@@ -36,7 +36,7 @@
 
 
 .btn__hero {
-    
+    @extend .btn;
     min-width: 200px;
     min-height: 50px;
 
@@ -72,8 +72,8 @@
 
 
 
-.btn-footer{
-  
+.footer-btn{
+  @extend .btn__hero;
   display: inline-flex;
   align-items: center;
   justify-content: center;
